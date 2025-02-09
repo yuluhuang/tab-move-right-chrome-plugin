@@ -1,6 +1,6 @@
 let rightList = []
 let isMouseHovering = false;
-let _activeInfo = ''
+// let _activeInfo = ''
 let moveList = []
 const moveTimeouts = {}; // 用 tabId 存储超时 ID
 

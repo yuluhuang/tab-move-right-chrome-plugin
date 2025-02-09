@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Tab Move Extension",
   "version": "1.0",
-  "permissions": ["scripting", "tabs", "storage"],
+  "permissions": ["tabs", "storage"],
   "background": {
     "service_worker": "background.js"
   },
@@ -21,9 +21,5 @@
       "js": ["content.js"],
       "run_at": "document_start"
     }
-  ],
-  "host_permissions": [
-    "http://*/*",
-    "https://*/*"
   ]
 }

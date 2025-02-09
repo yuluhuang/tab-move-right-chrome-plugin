@@ -2,7 +2,7 @@
 angular.module('app', [])
     .controller('OptionsController', function ($scope) {
         // 默认的设置
-        $scope.title = 'Tab移到设置'
+        $scope.title = 'Tab移动设置'
         $scope.showTip = false
         $scope.settings = {
             open: false,
